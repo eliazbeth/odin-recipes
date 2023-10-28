@@ -1,0 +1,58 @@
+p, .description, h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+    border-style: solid;
+    border-color: white;
+}
+
+h3{
+    font-style: italic;
+}
+
+ul, ol{
+    text-indent: 5%;
+    background-position: center;
+    background-size: contain;
+    word-spacing: 2px;
+}
+ol{
+    line-height: 30px;
+    text-indent: 3%;
+}
+.description {
+    font-family: monospace, sans-serif;
+    background-color: wheat;
+}
+
+
+p {
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: large;
+    background-color: bisque;
+}
+
+body{
+
+    background-color: blanchedalmond;
+}
+body.mac-cheese {
+    background-color: hsl(41, 100%, 68%);
+}
+body.snickerdoodle {
+    background-color: hsl(19, 46%, 65%);
+}
+body.scrambled-egg {
+    background-color: hsl(76, 69%, 76%);
+}
+
