@@ -1,12 +1,26 @@
 p, .description, h1 {
     text-align: center;
+    margin: auto;
+    padding: 10px;
 }
+.description{
+    border: dotted rgb(129, 96, 81) 6px;
+    width: 200px;
+    font-family: monospace, sans-serif;
+    background-color: wheat;
+}
+
+h2{
+    text-align: center;
+    border: dotted 2px goldenrod;
+}
+
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     height: auto;
     width: 200px;
+    border: white solid 5px;
 }
 
 h1{
@@ -18,21 +32,26 @@ h1{
 
 h3{
     font-style: italic;
+    text-align: center;
 }
 
 ul, ol{
     text-indent: 5%;
-    background-position: center;
-    background-size: contain;
     word-spacing: 2px;
+    background-color: wheat;
+    background-size: contain;
+    margin: auto;
+    padding: 20px;
+    border: solid goldenrod 4px;
+}
+
+ul{
+    width: 400px;
+    line-height: 20px;
 }
 ol{
-    line-height: 30px;
     text-indent: 3%;
-}
-.description {
-    font-family: monospace, sans-serif;
-    background-color: wheat;
+    line-height: 30px;
 }
 
 
@@ -40,6 +59,7 @@ p {
     font-family: Georgia, Times New Roman, Times, serif;
     font-size: large;
     background-color: bisque;
+    border: double 5px rgb(129, 96, 81);
 }
 
 body{
@@ -53,6 +73,6 @@ body.snickerdoodle {
     background-color: hsl(19, 46%, 65%);
 }
 body.scrambled-egg {
-    background-color: hsl(76, 69%, 76%);
+    background-color: hsl(54, 82%, 67%);
 }
 
